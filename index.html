@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1>
+        Choice stone, paper or scissors !
+    </h1>
+    <header>
+        <img src="kamien.jpg" name="stone">
+        <img src="papier.jpg" name="paper">
+        <img src="nozyczki.jpg" name="scissors">
+    </header>
+    <div class="btn">
+        <button type="submit">Play</button>
+    </div>
+    <section id="gameResult">
+        <div>
+            <h2>Current round</h2>
+            <p>Your choice:<span id="your"></span></p>
+            <p>Computer choice:<span id="ai"></span></p>
+            <p>Game result:<span id="result"></span></p>
+        </div>
+        <div>
+            <h2>Statistics</h2>
+            <p>Game Number:<span id="number">0</span></p>
+            <p>Your wins:<span id="wins">0</span></p>
+            <p>Your losses:<span id="losses">0</span></p>
+            <p>Draws:<span id="draws">0</span></p>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
